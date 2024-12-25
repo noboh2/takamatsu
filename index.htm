@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>勤怠入力システム</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>勤怠入力　柄澤伸夫</h1>
+
+    <label for="monthSelect">月選択:</label>
+    <select id="monthSelect" onchange="changeMonth()"></select>
+
+    <table id="attendanceTable">
+        <thead>
+            <tr>
+                <th>日付</th>
+                <th>曜日</th>
+                <th>始業時間</th>
+                <th>休憩開始時間</th>
+                <th>休憩終了時間</th>
+                <th>終業時間</th>
+                <th>現場名</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
